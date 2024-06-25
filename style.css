@@ -166,6 +166,7 @@ li {
   color: #a67b5b;
   font-size: 22px;
   margin-bottom: 5px;
+  list-style-type: none;
 }
 
 form {
