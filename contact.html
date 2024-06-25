@@ -17,28 +17,30 @@
           <a href="contact.html">Contact</a>
         </div>
       </div>
-        
+    
 
      </div> 
 
-     <br>
-     <br>
-     <br>
+     <h2>Contact Us: </h2>
 
-     <div>
-      <img src="coffee_bar.jpeg" alt="A picture of our lovely staff and coffee bar!" class="coffee-bar">
-     </div>
-      <br>
-      <br>
-      <br>
-    
-      <h1>Welcome to Little Sips!</h1>
-     <br>
-     <br>
-     <p>We are delighted to have you visit our website. 
-      At Little Sips we have a range of different drinks and bites to eat. 
-      Please do not hesitate to reach out and ask about any allergies or ingredients. 
-                           Thank you!</p>
+     <form action="/form.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Your name here"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Your last name here"><br><br>
+        <textarea class="query"name="query" rows="10" cols="30">
+        Write about your query here (delete me!):
+            </textarea> 
+        <p>Were you happy with our service?</p>
+        <input type="radio" id="yes" name="happy" value="yes">
+         <label for="html">Yes</label><br>
+        <input type="radio" id="no" name="happy" value="no">
+        <label for="html">No</label><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <p>When you press submit please give us 1-3 working days to get back to you, thanks!</p>
+
      
      <br>
 
